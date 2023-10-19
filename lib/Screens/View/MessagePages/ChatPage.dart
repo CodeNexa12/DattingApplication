@@ -1,8 +1,9 @@
-import 'package:datting_app_f/Screens/Widgets/Constants.dart';
-import 'package:datting_app_f/Screens/Widgets/CustomScaffold.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
+import '../../../Widgets/Constants.dart';
+import '../../../Widgets/CustomScaffold.dart';
 
 class ChatPage extends StatefulWidget {
   const ChatPage({Key? key}) : super(key: key);

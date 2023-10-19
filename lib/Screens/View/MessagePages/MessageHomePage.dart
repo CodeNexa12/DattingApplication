@@ -1,7 +1,7 @@
-import 'package:datting_app_f/Screens/MessagePages/ChatPage.dart';
-import 'package:datting_app_f/Screens/Widgets/CustomScaffold.dart';
 import 'package:flutter/material.dart';
 
+import '../../../Widgets/CustomScaffold.dart';
+import 'ChatPage.dart';
 import 'StoryPage.dart';
 
 

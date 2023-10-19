@@ -1,9 +1,8 @@
-import 'package:datting_app_f/Screens/Widgets/CustomScaffold.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../../Widgets/CustomScaffold.dart';
 import '../ProfileDetailPage/ProfilePage.dart';
-import '../Widgets/Constants.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

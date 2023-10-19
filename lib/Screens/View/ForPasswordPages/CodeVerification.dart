@@ -1,21 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import '../../../Widgets/Constants.dart';
+import '../../../Widgets/CustomScaffold.dart';
+import '../../../Widgets/widgets.dart';
+import 'ResetPassword.dart';
 
-import '../ForPasswordPages/forgotPassword.dart';
-import '../HomePages/HomePage.dart';
-import '../SignUpPage/SignUpPage.dart';
-import '../SignUpPage/SignUpWIthEmail/SignUpWithEmailPage.dart';
-import '../Widgets/Constants.dart';
-import '../Widgets/CustomScaffold.dart';
-import '../Widgets/widgets.dart';
-
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
+class CodeVerificationScreen extends StatefulWidget {
+  const CodeVerificationScreen({super.key});
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  State<CodeVerificationScreen> createState() => _CodeVerificationScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _CodeVerificationScreenState extends State<CodeVerificationScreen> {
   @override
   Widget build(BuildContext context) {
     double screenHeight = MediaQuery.of(context).size.height;
@@ -24,17 +20,17 @@ class _LoginScreenState extends State<LoginScreen> {
     return CustomScaffold(
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(height: screenHeight * 0.1,),
               SvgPicture.asset(logo),
               const SizedBox(height: 15,),
-              const Text("Welcome to login",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 25),),
+              const Text("Code verification",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 25),),
               const SizedBox(height: 20,),
 
-              const Text("Please fill out the below details to create your new account.",style: TextStyle(color: Colors.white,fontSize: 16),textAlign: TextAlign.center,),
+              const Text("Enter security code that we sent to your email id itika21real@gmail.com.",style: TextStyle(color: Colors.white,fontSize: 16),textAlign: TextAlign.center,),
               const SizedBox(height: 30,),
               SizedBox(
                 width: screenWidth * 0.8,
@@ -42,24 +38,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text("Email",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 16),textAlign: TextAlign.left,),
+                    const Text("Code",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 16),textAlign: TextAlign.left,),
                     SizedBox(height: 10,),
-                    textField("email"),
+                    textField("1234",true),
                     const SizedBox(height: 20,),
 
-                    const Text("Password",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 16),textAlign: TextAlign.left,),
-                    SizedBox(height: 10,),
-                    textField("*****"),
-                    Align(
-                      alignment: Alignment.bottomRight,
-                        child: TextButton(onPressed: (){
-
-                          Navigator.of(context).push(
-                              MaterialPageRoute(builder: (BuildContext context) {
-                                return const ForgotScreen();
-                              }));
-                        }, child: Text("Forgot Password?",style: TextStyle(color: buttonColor),))),
-                    const SizedBox(height: 20,),
 
                   ],
                 ),
@@ -73,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   onPressed: () {
                     Navigator.of(context).push(
                         MaterialPageRoute(builder: (BuildContext context) {
-                          return const HomePage();
+                          return const ResetPasswordPage();
                         }));
                   },
                   style: ElevatedButton.styleFrom(
@@ -83,7 +66,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   child: const Text(
-                    "Login",
+                    "Confirm",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
@@ -92,25 +75,25 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
-              const SizedBox(height: 20,),
+
               TextButton(
                 onPressed: () {
-                  Navigator.of(context).push(
-                          MaterialPageRoute(builder: (BuildContext context) {
-                            return const SignUpEmail();
-                          }));
+                  // Navigator.of(context).push(
+                  //     MaterialPageRoute(builder: (BuildContext context) {
+                  //       return const SignUpEmail();
+                  //     }));
                 },
                 child: RichText(
                   text:  TextSpan(
                     children: <TextSpan>[
                       TextSpan(
-                        text: "Don't have an account? ",
+                        text: 'Didn’t get a code? ',
                         style: TextStyle(
                           color: Colors.white70,
                         ),
                       ),
                       TextSpan(
-                        text: 'SignUp',
+                        text: 'Resend',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: buttonColor,
@@ -120,8 +103,6 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
-
-              const SizedBox(height: 20,),
 
 
 

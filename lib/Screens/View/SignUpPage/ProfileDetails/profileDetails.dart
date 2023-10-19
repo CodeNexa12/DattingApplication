@@ -1,10 +1,11 @@
 import 'dart:io';
-import 'package:datting_app_f/Screens/Widgets/CustomScaffold.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:image_picker/image_picker.dart';
-import '../../Widgets/CustomeDatePicker.dart';
+import '../../../../Widgets/CustomScaffold.dart';
+import '../../../../Widgets/CustomeDatePicker.dart';
 import 'SelectGenderPage.dart';
 
 class ProfileDetails extends StatefulWidget {

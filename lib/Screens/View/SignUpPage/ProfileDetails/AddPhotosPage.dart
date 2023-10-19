@@ -1,12 +1,12 @@
 import 'dart:io';
-import 'package:datting_app_f/Screens/Widgets/Constants.dart';
-import 'package:datting_app_f/Screens/Widgets/CustomScaffold.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 
+import '../../../../Widgets/Constants.dart';
+import '../../../../Widgets/CustomScaffold.dart';
 import 'ProfileDesciption.dart';
 
 class PhotosAddScreen extends StatefulWidget {

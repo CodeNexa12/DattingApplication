@@ -3,7 +3,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:story_view/controller/story_controller.dart';
 import 'package:story_view/story_view.dart';
 
-import '../Widgets/Constants.dart';
 
 class StoryPage extends StatefulWidget {
   const StoryPage({Key? key}) : super(key: key);

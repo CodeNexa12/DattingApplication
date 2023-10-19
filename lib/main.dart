@@ -1,7 +1,8 @@
-import 'package:datting_app_f/firebase_options.dart';
+import 'package:datting_app_f/Utils/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'Screens/StartingPages/FirstPage.dart';
+
+import 'Screens/View/StartingPages/FirstPage.dart';
 
 Future main()  async{
 //   WidgetsFlutterBinding.ensureInitialized();
