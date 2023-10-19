@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35956651481",
+    "project_id": "datingapp-fea1f",
+    "storage_bucket": "datingapp-fea1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35956651481:android:a24b23cb32f2dd9ff3d5c8",
+        "android_client_info": {
+          "package_name": "com.example.datting_app_f"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxxm75G_qK41iCojY8v-HxlluB8-texaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
