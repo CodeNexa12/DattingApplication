@@ -1,4 +1,4 @@
-# datting_app_f
+# Datting application
 
 A new Flutter project.
 
