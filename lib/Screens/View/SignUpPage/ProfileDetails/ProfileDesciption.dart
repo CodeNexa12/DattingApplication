@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../Widgets/Constants.dart';
-import '../../Widgets/CustomScaffold.dart';
-import '../../Widgets/widgets.dart';
+import '../../../../Widgets/Constants.dart';
+import '../../../../Widgets/CustomScaffold.dart';
 import 'SearchFriendPage.dart';
 
 class AddProfileDescription extends StatefulWidget {

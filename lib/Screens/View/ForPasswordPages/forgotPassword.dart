@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import '../Widgets/Constants.dart';
-import '../Widgets/CustomScaffold.dart';
-import '../Widgets/widgets.dart';
+
+import '../../../Widgets/Constants.dart';
+import '../../../Widgets/CustomScaffold.dart';
+
+import '../../../Widgets/widgets.dart';
 import 'CodeVerification.dart';
 
 class ForgotScreen extends StatefulWidget {

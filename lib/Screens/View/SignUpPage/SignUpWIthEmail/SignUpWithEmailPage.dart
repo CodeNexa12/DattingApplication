@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import '../../../../Widgets/Constants.dart';
+import '../../../../Widgets/CustomScaffold.dart';
+import '../../../../Widgets/widgets.dart';
+
 import '../../LoginPage/LoginPage.dart';
-import '../../Widgets/Constants.dart';
-import '../../Widgets/CustomScaffold.dart';
-import '../../Widgets/widgets.dart';
+
 import '../ProfileDetails/profileDetails.dart';
 
 class SignUpEmail extends StatefulWidget {

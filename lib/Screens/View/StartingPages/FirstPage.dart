@@ -1,9 +1,10 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+
+import '../../../Widgets/Constants.dart';
+import '../../../Widgets/CustomScaffold.dart';
 import '../LoginPage/LoginPage.dart';
 import '../SignUpPage/SignUpPage.dart';
-import '../Widgets/Constants.dart';
-import '../Widgets/CustomScaffold.dart';
 
 class FirstPage extends StatefulWidget {
   const FirstPage({super.key, Key? keys});

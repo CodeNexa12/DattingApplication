@@ -2,8 +2,10 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:pin_keyboard/pin_keyboard.dart';
-import '../Widgets/Constants.dart';
-import '../Widgets/CustomScaffold.dart';
+
+import '../../../Widgets/Constants.dart';
+import '../../../Widgets/CustomScaffold.dart';
+
 import 'ProfileDetails/profileDetails.dart';
 
 class CodePage extends StatefulWidget {

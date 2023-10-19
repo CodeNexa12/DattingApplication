@@ -1,8 +1,8 @@
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
 
-import '../Widgets/Constants.dart';
-import '../Widgets/CustomScaffold.dart';
+import '../../../Widgets/Constants.dart';
+import '../../../Widgets/CustomScaffold.dart';
 import 'CodePage.dart';
 
 class SignUpPhone extends StatefulWidget {

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import '../Widgets/Constants.dart';
-import '../Widgets/CustomScaffold.dart';
+
+import '../../../Widgets/Constants.dart';
+import '../../../Widgets/CustomScaffold.dart';
 import 'SignUpWIthEmail/SignUpWithEmailPage.dart';
 import 'SignUpWithPhone.dart';
 

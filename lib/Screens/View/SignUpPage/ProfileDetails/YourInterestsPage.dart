@@ -1,10 +1,9 @@
-import 'package:datting_app_f/Screens/Widgets/CustomScaffold.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../Widgets/Constants.dart';
-import '../../Widgets/widgets.dart';
+import '../../../../Widgets/Constants.dart';
+import '../../../../Widgets/CustomScaffold.dart';
+import '../../../../Widgets/widgets.dart';
 import 'AddPhotosPage.dart';
-import 'SearchFriendPage.dart';
 
 class InterestPage extends StatefulWidget {
   const InterestPage({super.key});

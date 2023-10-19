@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../../Widgets/Constants.dart';
-import '../../Widgets/CustomScaffold.dart';
+import '../../../../Widgets/Constants.dart';
+import '../../../../Widgets/CustomScaffold.dart';
 import 'EnableNotificationPage.dart';
 
 
